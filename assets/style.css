@@ -31,7 +31,7 @@ body{
 /* Navbar */
 
 header {
-  background: var(--background);
+  background: var(--current-line);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -76,4 +76,93 @@ header {
 
 .navbar-list li:first-child > a:hover{
     color: var(--pink);
+}
+
+/* Main */
+
+main {
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--foreground);
+  width: 100%;
+}
+
+/* Hero */
+
+#hero{
+  margin-top: 55px;
+  padding: 70px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  padding-right: 100px;
+}
+
+#hero h1{
+  font-size: 32px;
+  color: var(--red);
+  padding: 10px 10px;
+}
+
+#hero p {
+  color: var(--purple);
+  padding: 5px 5px;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+#hero button{
+  color: var(--foreground);
+  background-color: var(--comment);
+  width: 100px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  margin: 10px;
+}
+
+.hero-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-img img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.hero-img p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* About */
+#about{
+  background-color: var(--comment);
+  justify-content: center;
+  padding: 3%;
+}
+
+#about h4{
+  color: var(--foreground);
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
+}
+
+#about p{
+  color: var(--green);
+  font-weight: bolder;
+  text-align: right;
+  font-size: 26px;
 }
