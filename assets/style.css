@@ -30,7 +30,7 @@ body {
 
 /* Navbar */
 
-header {
+header{
   background: var(--current-line);
   width: 100%;
   display: flex;
@@ -199,4 +199,28 @@ main {
   font-size: 19px;
   color: var(--pink);
   padding: 25px;
+}
+
+/* Footer */
+
+footer {
+  flex-direction: column;
+  background: var(--current-line);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 5px;
+}
+
+footer p{
+  font-size: 16px;
+  color: var(--purple);
+  padding: 5px;
+  font-weight: bold;
+}
+
+footer .logo {
+  height: 65%;
 }
