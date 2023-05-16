@@ -24,8 +24,8 @@
   list-style-type: none;
 }
 
-body{
-    background-color: var(--current-line);
+body {
+  background-color: var(--current-line);
 }
 
 /* Navbar */
@@ -71,11 +71,11 @@ header {
 }
 
 .navbar-list a:hover {
-    color: var(--purple);
-  }
+  color: var(--purple);
+}
 
-.navbar-list li:first-child > a:hover{
-    color: var(--pink);
+.navbar-list li:first-child > a:hover {
+  color: var(--pink);
 }
 
 /* Main */
@@ -92,7 +92,7 @@ main {
 
 /* Hero */
 
-#hero{
+#hero {
   margin-top: 55px;
   padding: 70px 0;
   max-width: 1200px;
@@ -106,8 +106,8 @@ main {
   padding-right: 100px;
 }
 
-#hero h1{
-  font-size: 32px;
+#hero h1 {
+  font-size: 52px;
   color: var(--red);
   padding: 10px 10px;
 }
@@ -115,11 +115,11 @@ main {
 #hero p {
   color: var(--purple);
   padding: 5px 5px;
-  font-size: 18px;
+  font-size: 23px;
   padding-bottom: 20px;
 }
 
-#hero button{
+#hero button {
   color: var(--foreground);
   background-color: var(--comment);
   width: 100px;
@@ -147,22 +147,56 @@ main {
 }
 
 /* About */
-#about{
+#about {
   background-color: var(--comment);
   justify-content: center;
   padding: 3%;
 }
 
-#about h4{
+#about h4 {
   color: var(--foreground);
   font-weight: lighter;
   font-style: italic;
   font-size: 36px;
 }
 
-#about p{
+#about p {
   color: var(--green);
   font-weight: bolder;
   text-align: right;
   font-size: 26px;
+}
+
+/* Containers */
+
+#cards {
+  text-align: center;
+}
+
+.title {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 36px;
+  color: var(--foreground);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.monster {
+  max-width: 350px;
+}
+
+#cards img {
+  height: 200px;
+  width: 200px;
+}
+
+#cards .text {
+  font-size: 19px;
+  color: var(--pink);
+  padding: 25px;
 }
