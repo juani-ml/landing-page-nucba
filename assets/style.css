@@ -30,7 +30,7 @@ body {
 
 /* Navbar */
 
-header{
+header {
   background: var(--current-line);
   width: 100%;
   display: flex;
@@ -201,6 +201,84 @@ main {
   padding: 25px;
 }
 
+/* About Us */
+
+.about-us {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.box-one {
+  flex: 1;
+  background-color: var(--background);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.box-one h2 {
+  color: var(--orange);
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.subtitle-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.subtitle-container h3 {
+  color: var(--yellow);
+  font-size: 28px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 470px;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.contact-list li span {
+  margin-left: 5px;
+}
+
+.icons-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.icons-row a {
+  color: var(--purple);
+}
+
+.box-two {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.box-two img {
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 /* Footer */
 
 footer {
@@ -214,7 +292,7 @@ footer {
   padding: 5px;
 }
 
-footer p{
+footer p {
   font-size: 16px;
   color: var(--purple);
   padding: 5px;
